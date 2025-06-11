@@ -1,4 +1,4 @@
-export const Ejercicio1 = () => {
+export const Ejercicio01 = () => {
   return (
     <div className="row mt-4">
         <div className="col-12">

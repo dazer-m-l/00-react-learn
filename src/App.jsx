@@ -1,6 +1,8 @@
-import { Ejercicio1 } from "./components/Ejercicio1"
-import { Actividad1 } from "./components/Actividad1"
-import { Actividad2 } from "./components/Actividad2"
+import {Ejercicio01} from'./components/Ejercicio01'
+import {Ejercicio02} from'./components/Ejercicio02'
+
+import {Actividad01} from'./components/Actividad01'
+import {Actividad02} from'./components/Actividad02'
 function App() {
   return (
     <>
@@ -11,9 +13,10 @@ function App() {
         </div>
       </div>
       {/**mando a llamar comonentes */}
-          <Ejercicio1/>
-          <Actividad1/>
-          <Actividad2/>
+      <Ejercicio01/>
+      <Actividad01/>
+      <Actividad02/>
+      <Ejercicio02/>
     </div>
     </>
   )
